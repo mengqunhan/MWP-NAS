@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "mtree_flag": true,
+        "iou_flag": 1.0,
+        "exp_flag": true,
+        "ans_flag": true
+    },
+    {
+        "id": 1,
+        "mtree_flag": true,
+        "iou_flag": 1.0,
+        "exp_flag": true,
+        "ans_flag": true
+    },
+    {
+        "id": 2,
+        "mtree_flag": true,
+        "iou_flag": 1.0,
+        "exp_flag": true,
+        "ans_flag": true
+    }
+]
