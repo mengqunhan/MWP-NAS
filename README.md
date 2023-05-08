@@ -1,6 +1,6 @@
 ## Non-Autoregressive Math Word Problem Solver with Unified Tree Structure 
 
-This is the offcial repo for the paper "[Learning to Reason Deductively: Math Word Problem Solving as Complex Relation Extraction](https://arxiv.org/abs/2203.10316)".
+This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem Solver with Unified Tree Structure]()".
 
 
 ### Requirements
