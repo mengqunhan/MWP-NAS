@@ -10,7 +10,7 @@ This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem So
 
 ### Datasets
 
-Before you use the code, please download the missing train dataset from this [link](https://pan.baidu.com/s/17t6NZUjDW9MJdi0UzK9TJg?pwd=q61p) and put it in `datasets` dictionary.
+Before you use the code in `Math23K` dictionary, please download the missing train dataset from this [link](https://pan.baidu.com/s/17t6NZUjDW9MJdi0UzK9TJg?pwd=q61p) and put it in `./Math23K/datasets` dictionary.
 
 ### Usage
 
