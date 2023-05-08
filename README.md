@@ -10,7 +10,7 @@ This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem So
 
 ### Datasets
 
-Before you use the code in `Math23K` dictionary, please download the missing train dataset from this [link](https://pan.baidu.com/s/17t6NZUjDW9MJdi0UzK9TJg?pwd=q61p) and put it in `./Math23K/datasets` dictionary.
+Before you use the code in `Math23K` dictionary, please download the missing train dataset from this [link](https://pan.baidu.com/s/17t6NZUjDW9MJdi0UzK9TJg?pwd=q61p) and put it in `./Math23K/datasets/`.
 
 ### Usage
 
@@ -29,7 +29,7 @@ If you want to load the check points, please make sure you have downloaded the r
 * [Math23K check points](https://pan.baidu.com/s/1CQgW2mV3Mt7ry6gKIw9j3Q?pwd=28iz)
 * [MAWPS check points](https://pan.baidu.com/s/1_tTEemyCXZQ0H4gkFOuqJg?pwd=pzy1)
 
-Please put the check point files(Math23K or MAWPS) in `check_points` dictionary and put the dictionary in Math23K or MAWPS dictionary.
+Please put the check point files(Math23K and MAWPS) in `./Math23K/check_points/` and `./MAWPS/check_points/`.
 
 To use the check points and test the model on Math23K, run:
 ```
