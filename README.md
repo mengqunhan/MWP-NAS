@@ -5,9 +5,12 @@ This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem So
 
 ### Requirements
 
-* Pytorch = 1.13.1
+* Pytorch = 1.13.1;
 * You can see the `requirements.txt` in each dictionary, run `pip install -r requirements.txt` to get environment ready.
 
+### Datasets
+
+Before you use the code, please download the missing train dataset from this [link](https://pan.baidu.com/s/17t6NZUjDW9MJdi0UzK9TJg?pwd=q61p) and put it in `datasets` dictionary.
 
 ### Usage
 
@@ -21,9 +24,11 @@ To train our model on MAWPS, run:
 python ./MAWPS/main_mawps.py
 ```
 #### Test
-#
-If you want to load the check points, please make sure you have downloaded the required files.
-#
+
+If you want to load the check points, please make sure you have downloaded the required files:
+* [Math23K checkpoints](https://pan.baidu.com/s/1CQgW2mV3Mt7ry6gKIw9j3Q?pwd=28iz);
+* [MWP checkpoints](https://pan.baidu.com/s/1_tTEemyCXZQ0H4gkFOuqJg?pwd=pzy1).
+
 To use the check points and test the model on Math23K, run:
 ```
 python ./Math23K/main.py --mode test
