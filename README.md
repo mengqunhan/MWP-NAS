@@ -6,7 +6,7 @@ This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem So
 ### Requirements
 
 * Pytorch = 1.13.1
-* You can see the `requirements.txt` in each dictionary, run `pip install -r requirements.txt` to get environment ready.
+* You can see the `requirements.txt` in each dictionary, run `pip install -r requirements.txt` to get the environment ready.
 
 
 ### Usage
