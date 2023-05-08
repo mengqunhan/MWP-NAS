@@ -26,8 +26,9 @@ python ./MAWPS/main_mawps.py
 #### Test
 
 If you want to load the check points, please make sure you have downloaded the required files:
-* [Math23K checkpoints](https://pan.baidu.com/s/1CQgW2mV3Mt7ry6gKIw9j3Q?pwd=28iz);
-* [MWP checkpoints](https://pan.baidu.com/s/1_tTEemyCXZQ0H4gkFOuqJg?pwd=pzy1).
+* [Math23K check points](https://pan.baidu.com/s/1CQgW2mV3Mt7ry6gKIw9j3Q?pwd=28iz)
+* [MAWPS check points](https://pan.baidu.com/s/1_tTEemyCXZQ0H4gkFOuqJg?pwd=pzy1)
+Please put the check point files(Math23K or MAWPS) in `check_points` dictionary and put the dictionary in Math23K or MAWPS dictionary.
 
 To use the check points and test the model on Math23K, run:
 ```
