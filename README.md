@@ -6,7 +6,7 @@ This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem So
 ### Requirements
 
 * Pytorch = 1.13.1
-* You can see the `requirements.txt` in each dictionary, run `pip install -r requirements.txt` to get the environment ready.
+* You can see the `requirements.txt` in each dictionary, run `pip install -r requirements.txt` to get environment ready.
 
 
 ### Usage
@@ -31,4 +31,15 @@ python ./Math23K/main.py --mode test
 To use the check points and test the model on MAWPS, run:
 ```
 python ./MAWPS/test_mawps.py
+```
+#### Citation
+#
+If this repo is help to your work, please kindly cite our paper:
+```
+@article{mwpnas2023,
+  title={Non-Autoregressive Math Word Problem Solver with Unified Tree Structure},
+  author={Bin, Yi and Han, Mengqun and Shi, wenhao and Wang, Lei and Yang, Yang and Shen, Heng Tao},
+  journal={arXiv},
+  year={2023}
+}
 ```
