@@ -34,7 +34,7 @@ python ./MAWPS/test_mawps.py
 ```
 #### Citation
 #
-If this repo is help to your work, please kindly cite our paper:
+If this repo is helpful to your work, please kindly cite our paper:
 ```
 @article{mwpnas2023,
   title={Non-Autoregressive Math Word Problem Solver with Unified Tree Structure},
