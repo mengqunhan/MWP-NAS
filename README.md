@@ -1,6 +1,7 @@
 ## Non-Autoregressive Math Word Problem Solver with Unified Tree Structure 
 
-This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem Solver with Unified Tree Structure]()".
+This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem Solver with Unified Tree Structure](
+http://arxiv.org/abs/2305.04556)".
 
 
 ### Requirements
