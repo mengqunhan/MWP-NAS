@@ -46,7 +46,7 @@ If this repo is helpful to your work, please kindly cite our paper:
 @article{mwpnas2023,
   title={Non-Autoregressive Math Word Problem Solver with Unified Tree Structure},
   author={Bin, Yi and Han, Mengqun and Shi, wenhao and Wang, Lei and Yang, Yang and Shen, Heng Tao},
-  journal={arXiv},
+  journal={arXiv preprint arXiv:2305.04556},
   year={2023}
 }
 ```
