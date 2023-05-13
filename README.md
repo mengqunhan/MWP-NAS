@@ -40,6 +40,15 @@ To use the check points and test the model on MAWPS, run:
 ```
 python ./MAWPS/test_mawps.py
 ```
+
+#### MTree Acc and MTree IoU Evaluation
+
+In `./Evaluation/` we provide a tool to evaluate **MTree Acc** and **MTree IoU**, run:
+```
+python ./Evaluation/evaluate.py
+```
+Before you use this tool, you should change the prediction results of your model to the form of `./Evaluation/examples.json`.
+
 #### Citation
 #
 If this repo is helpful to your work, please kindly cite our paper:
