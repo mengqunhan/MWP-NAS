@@ -57,7 +57,7 @@ def main():
                                                                         test_dataset.new_word2idx,
                                                                         torch.device(args.device))
 
-            print(f"test acc:{acc_mtree},node acc:{acc_node},format acc:{acc_format}, value acc:{acc_value}, iou:{iou}")
+            print(f"mtree acc:{acc_mtree},node acc:{acc_node},format acc:{acc_format}, value acc:{acc_value}, iou:{iou}")
 
 if __name__ == '__main__':
     main()
