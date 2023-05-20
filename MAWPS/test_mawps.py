@@ -21,7 +21,7 @@ def test(fold):
     load_path=f"check_points/MTree_Solver_robert-{fold}"
     model = UniversalModel.from_pretrained(load_path,args).to(torch.device(args.device))
     acc_mtree, acc_node, acc_format, value = evaluate_value(args, val_dataloader, model, val_dataset.new_idx2word, val_dataset.new_word2idx, torch.device(args.device))
-    print(f"test acc:{acc_mtree},node acc:{acc_node},format acc:{acc_format},value acc:{value}")
+    print(f"mtree acc:{acc_mtree},node acc:{acc_node},format acc:{acc_format},value acc:{value}")
     return acc_mtree, value
 
 if __name__ == '__main__':
