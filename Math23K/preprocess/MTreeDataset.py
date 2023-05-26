@@ -132,7 +132,7 @@ class MTreeDataset(Dataset):
         max_num_variable = max([feature['num_variables'] for feature in batch])
         max_height, max_width = 0, 0
 
-        if self.mode=='train':
+        if self.mode=='train' or self.mode=='val':
             for feature in batch:
                 height,width=self.get_mtree_height_and_width(feature['mtree'])
                 max_height=max(max_height,height)
