@@ -39,7 +39,7 @@ def main():
             train_dataset.new_word2idx,
             tokenizer)
     else:
-        test_dataset = MTreeDataset(args, tokenizer, args.test_file, args.test_number, 'val')
+        test_dataset = MTreeDataset(args, tokenizer, args.test_file, args.test_number, 'test')
         test_dataloader = DataLoader(
             dataset=test_dataset,
             batch_size=args.batch_size,
