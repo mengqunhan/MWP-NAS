@@ -4,6 +4,10 @@ This is the offcial repo for the paper "[Non-Autoregressive Math Word Problem So
 http://arxiv.org/abs/2305.04556)".
 
 
+
+![Math word Problem](https://github.com/mengqunhan/MWP-NAS/assets/43869691/e2687aab-e002-433b-aa46-75befcb73686#pic_center)
+
+
 ### Requirements
 
 * Pytorch = 1.13.1;
@@ -43,11 +47,15 @@ python ./MAWPS/test_mawps.py
 
 #### MTree Acc and MTree IoU Evaluation
 
-In `./Evaluation/` we provide a tool to evaluate **MTree Acc** and **MTree IoU**, run:
+**MTree Acc** is proposed to solve the problem of mathematical expression variants and alleviate the drawback that Expression Acc underestimates the performance of MWP solvers. MTree IoU is proposed to evaluate the partial correctness of the prediction expression obtained by MWP solvers.
+
+![image](https://github.com/mengqunhan/MWP-NAS/assets/43869691/ff6ac2e8-492d-49e7-a3ec-89a60428d372#pic_center)
+
+
+In `./Evaluation/` we provide a tool to evaluate **MTree Acc** and **MTree IoU**. Just prepare the prediction from your model and target as the format of `./Evaluation/examples.json`, then run:
 ```
 python ./Evaluation/evaluate.py
 ```
-Before you use this tool, you should change the prediction results of your model to the form of `./Evaluation/examples.json`.
 
 #### Citation
 #
