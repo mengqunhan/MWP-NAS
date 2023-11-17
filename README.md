@@ -46,14 +46,14 @@ python ./MAWPS/test_mawps.py
 
 #### MTree Acc and MTree IoU Evaluation
 
-**MTree Acc** is proposed to solve the problem of mathematical expression variants and alleviate the drawback that Expression Acc underestimates the performance of MWP solvers. MTree IoU is proposed to evaluate the partial correctness of the prediction expression obtained by MWP solvers.
+**MTree Acc** is proposed to solve the problem of mathematical expression variants and alleviate the drawback that Expression Acc underestimates the performance of MWP solvers. **MTree IoU** is proposed to evaluate the partial correctness of the prediction expression obtained by MWP solvers.
 
 <div align="center">
   <img src="Figures/evaluations.png" width="80%" title="evaluations">
 </div>
 
 
-In `./Evaluation/` we provide a tool to evaluate **MTree Acc** and **MTree IoU**. Just prepare the prediction from your model and target as the format of `./Evaluation/examples.json`, then run:
+In `./Evaluation/` we provide a tool to evaluate **MTree Acc** and **MTree IoU**. You just need to convert *the prediction from your model and groundtruth* into the form shown in `./Evaluation/examples.json`, then run:
 ```
 python ./Evaluation/evaluate.py
 ```
