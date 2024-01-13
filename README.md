@@ -62,10 +62,18 @@ python ./Evaluation/evaluate.py
 #
 If this repo is helpful to your work, please kindly cite our paper:
 ```
-@article{mwpnas2023,
-  title={Non-Autoregressive Math Word Problem Solver with Unified Tree Structure},
-  author={Bin, Yi and Han, Mengqun and Shi, wenhao and Wang, Lei and Yang, Yang and Shen, Heng Tao},
-  journal={arXiv preprint arXiv:2305.04556},
-  year={2023}
+@inproceedings{DBLP:conf/emnlp/BinHSW0NS23,
+  author       = {Yi Bin and
+                  Mengqun Han and
+                  Wenhao Shi and
+                  Lei Wang and
+                  Yang Yang and
+                  See{-}Kiong Ng and
+                  Heng Tao Shen},
+  title        = {Non-Autoregressive Math Word Problem Solver with Unified Tree Structure},
+  booktitle    = {{EMNLP}},
+  pages        = {3290--3301},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2023}
 }
 ```
